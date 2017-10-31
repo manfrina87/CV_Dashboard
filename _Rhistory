@@ -1,0 +1,5 @@
+install.packages('knitr', dependencies = TRUE)
+setwd("~/CV_Dashboard")
+install.packages("RColorBrewer")
+install.packages("wordcloud")
+install.packages("fmsb")

@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MY DASHBOARD CV Template
+%
+% Needs package: Deedy Resume
+% XeLaTeX and Sweave Template
+%
+% Author:
+% Martina Manfrin (manfrina87@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% R must be installed on your PC
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,landscape]{deedy-resume} % Use a4paper, landscape 
+
+\usepackage{Sweave}
+\begin{document}
+\input{dashboard-concordance}
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Martina}{Manfrin}{ % Your name
+\urlstyle{same}\url{linkedin.com/in/martinamanfrin} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:martina.manfrin87@gmail.com}{martina.manfrin87@gmail.com} | 340 7884910 % Your contact information
+}
+
+
+\vspace{5mm}
+
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% THAT'S ME!
+%------------------------------------------------
+
+\section{That's Me!} 
+
+\fbox{\includegraphics[page=3, scale=0.5, clip, trim=25mm 25mm 0mm 30mm]{Rplots.pdf}}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% INDUSTRY KNOWLEDGE
+%------------------------------------------------
+
+\section{Industry Knowledge} 
+
+\fbox{\includegraphics[page=5, scale=0.5, clip, trim=25mm 30mm 0mm 20mm]{Rplots.pdf}}
+
+\sectionspace % Some whitespace after the section
+
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	MIDDLE COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.33\textwidth} % The middle column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% TECH SKILLS
+%------------------------------------------------
+
+\section{Tech Skills}
+
+\fbox{\includegraphics[page=2, scale=0.5, clip, trim=10mm 0mm 8mm 10mm]{Rplots.pdf}}
+
+\sectionspace % Some whitespace after the section
+
+
+%------------------------------------------------
+% MADE WITH
+%------------------------------------------------
+\vspace{5mm}
+\section{Made With}
+\fbox{\includegraphics{logo.png}}
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the middle column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.30\textwidth} % The right column takes up 30% of the text width of the page
+
+\section{Other Stuff}
+
+\fbox{\includegraphics[page=4, scale=0.5, clip, trim=20mm 30mm 15mm 30mm]{Rplots.pdf}}
+
+\sectionspace % Some whitespace after the section
+
+
+\section{Languages}
+
+\fbox{\includegraphics[page=1, scale=0.45, clip, trim=10mm 10mm 10mm 20mm]{Rplots.pdf}}
+
+\sectionspace % Some whitespace after the section
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (TEMPLATE)
+%----------------------------------------------------------------------------------------
+\iffalse  %put \iftrue to activate second page block of code
+
+\newpage % Start a new page
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Martina}{Manfrin}{ % Your name
+\urlstyle{same}\url{linkedin.com/in/martinamanfrin} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:martina.manfrin87@gmail.com}{martina.manfrin87@gmail.com} | 340 7884910 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% SUMMARY
+%------------------------------------------------
+
+\section{Summary} 
+
+\subsection{Cornell University}
+
+\descript{MEng in Computer Science}
+\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
+
+\sectionspace % Some whitespace after the section
+
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% WORK EXPERIENCE
+%------------------------------------------------
+
+\section{Work}
+
+
+
+% EDUCATION
+%------------------------------------------------
+
+\section{Education}
+
+\fbox{\includegraphics[page=6, scale=0.2,clip,trim=10mm 10mm 10mm 20mm]{Rplots.pdf}}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+\end{minipage} % The end of the right column
+
+\fi
+
+%----------------------------------------------------------------------------------------
+
+%
+%HERE BEGINS R CODE
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

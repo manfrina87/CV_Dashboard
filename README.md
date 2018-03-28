@@ -2,7 +2,7 @@
 My Curriculum Vitae as a dashboard, in R and LaTeX.
 See **dashboard.pdf** in order to have an idea of how it should be.
 
-[My CV](/img/cv.png)
+![My CV](/img/cv.png)
 
 ## How to use
 
